@@ -106,7 +106,6 @@
     display: flex;
     align-items: center;
     font-weight: 600;
-    cursor: pointer;
     justify-content: space-between;
     border-bottom: solid 2px;
     margin-bottom: 15px;

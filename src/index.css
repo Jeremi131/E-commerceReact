@@ -10,16 +10,6 @@
     --body: white;
 }
 
-.darMode{
-    --navbar: #686868;
-    --btn_color: #f85555;
-    --btn_color_hover: #f13232;
-    --border_product: #dcd9d9;
-    --first_text: rgb(199, 199, 199);
-    --second_text: #515151;
-    --body: white;
-}
-
 *{
     margin: 0;
     padding: 0;

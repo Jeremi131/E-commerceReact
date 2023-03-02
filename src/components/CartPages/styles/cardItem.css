@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.actual_page_cart span{
+    font-weight: 600;
+}
+
 
 .container_cartItem {
     width: 100%;
@@ -34,10 +38,6 @@
 }
 
 
-.brand_cart {
-    font-size: 12px;
-}
-
 .title_cart {
     font-size: 15px;
     margin-top: 20px;
@@ -54,6 +54,7 @@
 
 .quantityCart_title {
     font-size: 14px;
+
 }
 
 .quantityCart_info {
@@ -94,9 +95,10 @@
 
 .total_container {
     margin-top: 20px;
-    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
-
 
 .total_container button {
     width: 150px;
@@ -106,6 +108,7 @@
     color: white;
     cursor: pointer;
     margin-top: 15px;
+    
 }
 
 @media (min-width: 768px) {
@@ -161,5 +164,11 @@
     .icon_trash {
         font-size: 40px;
     }
+
+    .total_container {
+        margin-right: 7rem;
+    }
+    
+
 
 }

@@ -1,0 +1,25 @@
+.loadingScreen {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    z-index: 100;
+}
+
+.box_load {
+    font-size: 70px;
+    animation: LoadAnimation 2s infinite;
+}
+
+@keyframes LoadAnimation{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,208 @@
+.loggedIn{
+    background-color: rgba(245, 245, 245, 0.733);
+    padding: 7rem 4rem 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+}
+
+.card_loggedIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(70, 70, 70, 0.507);
+}
+
+.text_welcome{
+    margin-bottom: 1rem;
+}
+
+.icon_loggedIn{
+    font-size: 7rem;
+    color: var(--btn_color);
+}
+
+.userLogged{
+    font-size: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    color: var(--second_text);
+}
+
+.btn_logout{
+    font-size: 1rem;
+    color: rgb(0, 162, 255);
+    background: none;
+    cursor: pointer;
+}
+
+.login_page{
+    background-color: rgba(245, 245, 245, 0.733);
+    padding: 8rem 4rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+}
+
+.card_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(70, 70, 70, 0.507);
+    padding:1rem 2rem;
+}
+
+.welcome_login{
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: rgba(168, 235, 255, 0.685);
+    border-radius: 7px;
+}
+
+.form_login{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.item input{
+    padding: 8px 1rem;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+.item input:focus{
+    border: 1px solid var(--btn_color);
+}
+
+.btn_login{
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 30px;
+    background-color: var(--btn_color);
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+}
+
+.text_register{
+    color: inherit;
+}
+
+.text_register span{
+    color: rgb(0, 162, 255) ;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .text_welcome{
+        font-size: 20px;
+    }
+
+    .icon_loggedIn{
+        font-size: 5rem;
+    }
+
+    .userLogged{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text_login{
+        font-size: 20px;
+    }
+    
+    .welcome_login{
+        font-size: 12px;
+    }
+
+    .text_register{
+        font-size: 12px;
+    }
+
+    .item input{
+        padding: 4px 1rem;
+    }
+
+    .item label{
+        font-size: 12px;
+    }
+
+    .btn_login{
+        padding: 8px 0;
+    }
+}
+
+@media (min-width: 2200px) {
+    .card_loggedIn{
+        padding: 10rem;
+        
+    }
+
+    .text_welcome{
+        font-size: 70px;
+    }
+
+    .icon_loggedIn{
+        font-size: 15rem;
+    }
+
+    .userLogged{
+        font-size: 70px ;
+    }
+
+    .btn_logout{
+        font-size: 4rem;
+    }
+
+    .card_login{
+        max-width: 700px;
+    }
+
+    .text_login{
+        font-size: 70px;
+    }
+
+    .welcome_login{
+        font-size: 50px;
+    }
+
+    .item input{
+        border: solid 4px var(--border_product);
+        height:70px;
+    }
+
+    .item input:focus{
+        border: solid 4px var(--btn_color);
+    }
+
+    .item label{
+        font-size: 40px;
+    }
+
+    .btn_login{
+        height: 70px;
+        font-size: 40px;
+    }
+
+    .text_register{
+        font-size: 45px;
+    }
+}

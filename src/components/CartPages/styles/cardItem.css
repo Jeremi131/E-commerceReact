@@ -1,0 +1,165 @@
+.cartPage {
+    padding: 5rem 2rem 2rem 2rem;
+}
+
+.actual_page_cart {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.container_cartItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+    border: solid 1px var(--border_product);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.header_cart {
+    width: calc(1/3 * 60%);
+    aspect-ratio: 1;
+    padding: 0.3em;
+}
+
+.img_cart {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.brand_cart {
+    font-size: 12px;
+}
+
+.title_cart {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+.container_quantity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.quantityCart_title {
+    font-size: 14px;
+}
+
+.quantityCart_info {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.container_price {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.priceCart_title {
+    font-size: 12px;
+}
+
+.priceCart_info {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.priceCart_info::before {
+    font-weight: 600;
+    content: '$';
+}
+
+.container_cartItem button {
+    background: none;
+}
+
+.icon_trash {
+    font-size: 30px;
+    color: var(--btn_color);
+    cursor: pointer;
+}
+
+.total_container {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.total_container button {
+    width: 150px;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--btn_color);
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+
+    .actual_page_cart {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        color: var(--second_color);
+        margin-left: 8rem;
+    }
+    
+    .title_cartShop {
+        margin-top: 1rem;
+        margin-left: 9rem;
+    }
+    
+    .cartItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_cartItem {
+        width: 50%;
+    }
+
+    .header_cart {
+        width: calc(1/3 * 100%);
+    }
+
+    .title_cart {
+        font-size: 18px;
+    }
+
+    .quantityCart_title {
+        font-size: 16px;
+    }
+
+    .quantityCart_info {
+        font-size: 19px;
+    }
+
+    .priceCart_title {
+        font-size: 14px;
+    }
+
+    .priceCart_info {
+        font-size: 20px;
+    }
+
+
+    .icon_trash {
+        font-size: 40px;
+    }
+
+}

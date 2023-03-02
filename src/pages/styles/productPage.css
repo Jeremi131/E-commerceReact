@@ -1,0 +1,23 @@
+.productPage{
+    padding-top: 6rem;
+}
+
+.actual_page_product{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: var(--second_color);
+    margin-left: 3rem;
+}
+
+.actual_page_product span{
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .productPage_info{
+        display: grid;
+        grid-template-columns: 500px 1fr;
+    }
+
+}

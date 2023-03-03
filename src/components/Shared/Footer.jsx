@@ -6,9 +6,15 @@ const Footer = () => {
     return (
         <footer className='footer_app'>
             <div className='social'>
-                <i className='bx icon_social bxl-facebook'></i>
-                <i className='bx icon_social bxl-linkedin'></i>
-                <i class='bx icon_social bxl-instagram'></i>
+                <a href="https://www.facebook.com/Jeremi.Castellano131" target='blank'>
+                    <i className='bx icon_social bxl-facebook'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jeremi-castellano-5b924a1a3/" target='blank'>
+                    <i className='bx icon_social bxl-linkedin'></i>
+                </a>
+                <a href="https://www.instagram.com/jeremi_castellano/" target='blank'>
+                    <i className='bx icon_social bxl-instagram'></i>
+                </a>
             </div>
 
             <div className='credits'>
@@ -16,7 +22,7 @@ const Footer = () => {
                 <img className='marca' src={marca} alt="" />
                 <p className='text'> ALL RIGHTS RESERVED</p>
             </div>
-        </footer>
+        </footer >
     )
 }
 
